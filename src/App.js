@@ -13,9 +13,9 @@ function App() {
 
 
 // USE Effect
-  useEffect(() =>{
-    filterHandler();
-  },[todos, status]);
+useEffect(() =>{
+  filterHandler();
+},[todos, status]);
 
   const filterHandler = () =>{
     switch(status){
