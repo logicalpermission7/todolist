@@ -1,5 +1,4 @@
 import React from 'react';
-import TodoList from './TodoList';
 
 
 function Todo({text, todo, todos, setTodos}){
